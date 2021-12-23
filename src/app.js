@@ -22,7 +22,3 @@ app.use(errorHandler);
 
 module.exports = app;
 
-//notes from lecture editing 2 resource routes and controllers dont have to touch anything
-//example of client route calls and send the response
-//dishes is an array
-//validation way to check each property without doing the code over and over

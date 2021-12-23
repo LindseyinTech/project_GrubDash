@@ -33,7 +33,7 @@ function orderExists(req, res, next) {
 }
 function statusValidator(req, res, next){
   //Put request: status property cant be missing, empty or delivered --different error message for missing & empty VERSUS delivered
-  //DELETE Request: status proeprty of the be pending, error: "An order cannot be deleted unless it is pending"
+  //DELETE Request: status property of the be pending, error: "An order cannot be deleted unless it is pending"
   const { data } = req.body;
   switch (data.status) {
     case 'pending': 
