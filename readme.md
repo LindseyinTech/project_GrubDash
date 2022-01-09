@@ -30,7 +30,8 @@ This route will delete the order where id === :orderId, or return 404 if no matc
 
 ![deployedAPI](https://gyazo.com/d832ade666c1e91edee96c5eade6ff66.png)
 
-What a view..
+Just look at this beautiful data..
+
 
 To view this project's user interface on the web, click [here](https://grub-dash-client.vercel.app/)
 
